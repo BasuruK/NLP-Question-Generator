@@ -1,4 +1,16 @@
-NP_PERSON,Who is
-VP,What did NP do ?
-Alice_called_Rabbit,Who did Alice Call ?
-girl_called_Alice,What was the girl called ?
+NP_PERSON,Who is NP ?
+called_VP,What did NP do ?
+girl_ADJP,Who is the NP ?
+Alice_NP_PERSON,Who is NP ?
+Rabbit_NP_PERSON,Who is the animal ?
+Dog_NP_PERSON,Who is the animal ?
+Cat_NP_PERSON,Who is the animal ?
+Cinderella_NP_Person,Who is NP ?
+said_VP,What did NP said to NP1 ?
+run_VP,Where did NP run to ?
+walk_VP,Where did NP walked ?
+Cinderella_NP,Who is NP ?
+Cat_NP,Who is the animal ?
+Dog_NP,Who is the animal ?
+Rabbit_NP,Who is the animal ?
+girl_NP,Who is the NP ?
