@@ -13,3 +13,12 @@ Cat_NP,Who is the animal ?
 Dog_NP,Who is the animal ?
 Rabbit_NP,Who is the animal ?
 girl_NP,Who is the NP ?
+talk_VP,What did the NP talk about ?
+smiled_VP,Why did NP smile ?
+met_VP,Who did NP meet ?
+meeting_VP,Who did NP meet ?
+Fairy_NP,Who is NP ?
+jump_VP,Where did NP jump to ?
+scream_VP,Why did NP scream ?
+laughed_VP,Why did NP laugh ?
+jumped_VP,Where did NP jump to ?
