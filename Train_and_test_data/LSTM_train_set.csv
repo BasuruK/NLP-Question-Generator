@@ -22,3 +22,17 @@ jump_VP,Where did NP jump to ?
 scream_VP,Why did NP scream ?
 laughed_VP,Why did NP laugh ?
 jumped_VP,Where did NP jump to ?
+mirror_SBAR,What does NP refer to ?
+persons_NP,Who are NP ?
+turned_VP,why did NP turn ?
+used_VP,What was “used” in this passage ?
+humor_SBAR,What is the humor in the story ?
+heart_ADVP,What is meant by NP ?
+made_VP,What did NP make ?
+frights_VP,Why did NP frighten ?
+possessed_VP,Why NP possessed N1
+pieces_VP,What are the pieces refers to in the story ? 
+worked_VP,What NP worked ?
+people_NP,Who are NP ?
+stayed_VP,What did stay regarding to NP ?
+eyes_VP,What is meant by NP ?
