@@ -36,3 +36,15 @@ worked_VP,What NP worked ?
 people_NP,Who are NP ?
 stayed_VP,What did stay regarding to NP ?
 eyes_VP,What is meant by NP ?
+Woman_NP,Who is the NP ?
+woman_NP,Who is the NP ?
+lived_VP,Where did the NP live ?
+Peter_SBAR_PERSON,Who is NP ?
+Little_NP,What was little ?
+little_NP,What was little ?
+baskets_NP,What are the NP ?
+baskets_VP,what were the NP doing ?
+house_SBAR,What was the NP ?
+came_VP,Who came where ?
+home_ADVP,What was home ?
+huge_NP,What was huge ?
