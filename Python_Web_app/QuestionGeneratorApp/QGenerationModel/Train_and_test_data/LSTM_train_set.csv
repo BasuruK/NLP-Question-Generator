@@ -1,0 +1,50 @@
+called_VP,What did NP do ?
+girl_ADJP,Who is the NP ?
+Alice_NP_PERSON,Who is NP ?
+Rabbit_NP_PERSON,Who is the animal ?
+Dog_NP_PERSON,Who is the animal ?
+Cat_NP_PERSON,Who is the animal ?
+Cinderella_NP_Person,Who is NP ?
+said_VP,What did NP said to N1 ?
+run_VP,Where did NP run to ?
+walk_VP,Where did NP walked ?
+Cinderella_NP,Who is NP ?
+Cat_NP,Who is the animal ?
+Dog_NP,Who is the animal ?
+Rabbit_NP,Who is the animal ?
+girl_NP,Who is the NP ?
+talk_VP,What did the NP talk about ?
+smiled_VP,Why did NP smile ?
+met_VP,Who did NP meet ?
+meeting_VP,Who did NP meet ?
+Fairy_NP,Who is NP ?
+jump_VP,Where did NP jump to ?
+scream_VP,Why did NP scream ?
+laughed_VP,Why did NP laugh ?
+jumped_VP,Where did NP jump to ?
+mirror_SBAR,What does NP refer to ?
+persons_NP,Who are NP ?
+turned_VP,why did NP turn ?
+used_VP,What was “used” in this passage ?
+humor_SBAR,What is the humor in the story ?
+heart_ADVP,What is meant by NP ?
+made_VP,What did NP make ?
+frights_VP,Why did NP frighten ?
+possessed_VP,Why NP possessed N1
+pieces_VP,What are the pieces refers to in the story ? 
+worked_VP,What NP worked ?
+people_NP,Who are NP ?
+stayed_VP,What did stay regarding to NP ?
+eyes_VP,What is meant by NP ?
+Woman_NP,Who is the NP ?
+woman_NP,Who is the NP ?
+lived_VP,Where did the NP live ?
+Peter_SBAR_PERSON,Who is NP ?
+Little_NP,What was little ?
+little_NP,What was little ?
+baskets_NP,What are the NP ?
+baskets_VP,what were the NP doing ?
+house_SBAR,What was the NP ?
+came_VP,Who came where ?
+home_ADVP,What was home ?
+huge_NP,What was huge ?

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Question Generator App</title>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    </head>
+    <body>
+
+    <!--Header Nav bar-->
+
+    <nav class="navbar navbar-inverse bg-inverse">
+        <div id="navbarText">
+            <h1 class="navbar-brand mb-0"><b>Q</b>uestion Generation App</h1>
+            <span class="navbar-text float-right">
+                <a href="https://github.com/BasuruK/QuestionGenerationUsingNLP" class="nav-link" style="color: gray"> &copy; Basuru Kusal 2017</a>
+            </span>
+        </div>
+    </nav>
+
+    <!--Jumbo tron-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+            <h1 class="display-6">Question Generation</h1>
+            <p class="lead" >Using Natural Language Processing</p>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="alert alert-success">
+            <strong>Completed! </strong>
+            Questions Successfully Generated..
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">Questions</div>
+
+                    <div class="card-block">
+                        <ul class="list-group list-group-flush">
+                            {% for q in Questions %}
+                            <li class="list-group-item"><p class="card-text"> {{ q }} </p></li>
+                            {% endfor %}
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 10px">
+            <div class="col-12 ">
+                <a href="/" class="btn btn-success float-right">Back</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+</html>
