@@ -73,7 +73,8 @@ class QuestionGenerator:
             i += 1
 
         # Set the model of previously trained data set
-        model_file = os.getcwd() + '/QGenerationModel/model.crf.tagger'
+        model_file = os.getcwd() + '/QuestionGeneratorApp/QGenerationModel/model.crf.tagger'
+        print(os.getcwd())
         ct.set_model_file(model_file=model_file)
         word_list = ct.tag_sents(word_list)
 
@@ -179,7 +180,7 @@ class QuestionGenerator:
 
         # Read training data from the csv
         # Training data format => [(["Phrase"], ["Question"])]
-        train_set_path = os.getcwd() + '/QGenerationModel/Train_and_test_data/LSTM_train_set.csv'
+        train_set_path = os.getcwd() + '/QuestionGeneratorApp/QGenerationModel/Train_and_test_data/LSTM_train_set.csv'
         unprocessed_data = pd.read_csv(train_set_path, header=None)
 
         # Transform the data in to a processable format
